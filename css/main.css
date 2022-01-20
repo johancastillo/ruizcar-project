@@ -1,8 +1,9 @@
 /* Brand Carousel */
 div.scrollmenu {
-    background-color: #333;
+    background-color: #fff;
     overflow: auto;
     white-space: nowrap;
+    margin: 30px 20px;
   }
   
 div.scrollmenu a {
@@ -11,6 +12,15 @@ div.scrollmenu a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+}
+
+
+div.scrollmenu img{
+    filter: grayscale(1);
+}
+
+div.scrollmenu a:hover img{
+    filter: grayscale(0);
 }
 
 div.scrollmenu a:hover {
